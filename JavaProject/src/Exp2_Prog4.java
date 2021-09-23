@@ -26,21 +26,16 @@ public class Exp2_Prog4 {
     		}
     	}
     }
-    System.out.print("Marks of Student in Ascending Order: ");
-    for (int i=1; i < n-1; i++) 
-    {
-        System.out.print(stu[i] + ", ");
-    }
-    System.out.print(stu[n-1]);
-    for(int i=0;i<n;i++) {
-    	if(stu[i] > 40) {
-    		System.out.print("Student stu[i] got Pass ");
+	   for(int i = 0 ; i < 10 ; i++) {
+    
+     if(stu[i] <= 50) {
+    		System.out.print("\nStudent with marks "+stu[i]+"at position"+i+" got Pass ");
     	}
-    	if(stu[i] > 50) {
-    			System.out.print("Student stu[i] got Merit ");}
+    	if(stu[i] <= 75) {
+    			System.out.print("\nStudent"+ stu[i]+"at position"+i+" got Merit ");}
     	if(stu[i] > 75)
     	{
-    	System.out.print("Student stu[i] got distinction ");
+    	System.out.print("\nStudent with marks"+stu[i]+"at position"+i+" got distinction ");
     		}
     }
 }

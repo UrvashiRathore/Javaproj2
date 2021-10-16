@@ -1,19 +1,20 @@
-
-interface Test
-{
-int square();
+class Exp5_Prog1{
+		
+	public static void main(String[] args) {
+		Arithmetic c = new Arithmetic();
+		System.out.println(c.square());
+}
 }
 class Arithmetic implements Test
 {
 	int b;
 	public int square()
 	{
-		b = 12;
+		b = 15;
 		return(b*b);
 	}
-		
-	public static void main(String[] args) {
-		Arithmetic c = new Arithmetic();
-		c.square();
 }
+interface Test
+{
+int square();
 }
